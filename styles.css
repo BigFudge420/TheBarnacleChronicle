@@ -1,0 +1,144 @@
+
+body{
+    background-color: #1b1b32;
+    color: #f5f6f7;
+}
+
+.title{
+    text-align: center;
+}
+
+h1{
+    font-weight: 800;
+    font-size: 40px;
+}
+
+.life-timeline{
+    text-align: center;
+    border-bottom: 2px solid #d0d0d5;
+    padding-bottom: 40px;
+}
+
+#subtitle{
+    color: #d0d0d5;
+    margin-top: -20px;
+    font-style: italic;
+}
+
+#img-caption {
+    font-style: italic;
+    color: #d0d0d5;
+    margin: 20px auto;
+    padding: 0px 20px;
+    text-align: center;
+    border-bottom: 2px solid #d0d0d5;
+    padding-bottom: 40px;
+
+}
+
+.FAQ p{
+    margin: 20px auto;
+    padding: 0px 200px;
+    text-align: center;  
+}
+
+.FAQ h2,
+.FAQ h3 {
+    text-align: center;
+    margin-top: 60px;
+}
+
+
+#image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(223, 223, 226, 1);
+    margin: 0 auto;    
+    width: 80%;
+}
+
+
+
+.faq-item {
+    border: 2px solid #d0d0d5;
+    margin: 0 2.5rem; /* Adjust the margin as per your design requirements */
+    padding-bottom: 2.5rem;
+    overflow: hidden; /* Add this line to prevent content overflow */
+    box-sizing: border-box; /* Add this line to include padding and border in the element's total width */
+    display: flex; /* Add this line to use flexbox */
+    align-items: center; /* Add this line to vertically center the content */
+
+}
+
+.faq-item {
+    /* Existing styles */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.faq-item h3 {
+    margin-top: 3%;
+
+}
+
+.faq-item p {
+    flex: 1;
+    padding: 2.5% 5% 0% 5%;
+    margin: 0;
+}
+
+
+
+
+.first{
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.last{
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.FAQ{
+    border-bottom: 2px solid #d0d0d5;
+    padding-bottom: 40px;
+}
+
+ul {
+    max-width: 550px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+    line-height: 1.6;
+}
+
+#headline{
+    margin: 50px;
+    text-align: center;
+}
+
+li{
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+  
+
+.footer{
+    margin: 50px;
+    text-align: center;
+}
+
+.footer a:hover{
+    color: #99c9ff
+
+    ;
+
+}
+
+.footer a{
+    color: #d0d0d5;
+}
